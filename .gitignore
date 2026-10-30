@@ -1,0 +1,34 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Local SQLite databases & temporary data
+*.db
+*.db-journal
+*.sqlite3
+
+# Python build & bytecode artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter & Google Colab temporary checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Operating System & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+temp_html/
+scratch/

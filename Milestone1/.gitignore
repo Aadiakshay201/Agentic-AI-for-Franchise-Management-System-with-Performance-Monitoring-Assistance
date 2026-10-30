@@ -1,0 +1,18 @@
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Local SQLite databases and temp logs
+*.db
+*.db-journal
+*.sqlite3
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
